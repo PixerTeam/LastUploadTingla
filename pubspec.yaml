@@ -1,0 +1,64 @@
+name: tingla
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  custom_timer: ^0.0.6
+  pin_code_fields: ^7.3.0
+  percent_indicator: ^3.0.1
+  image_picker: ^0.8.4
+  flutter_switch: ^0.3.2
+  expansion_tile_card: ^2.0.0
+  http: ^0.13.3
+  shared_preferences: ^2.0.7
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.4
+  flutter_bloc: ^7.3.0
+  http_parser: ^4.0.0
+  cached_network_image: ^3.1.0
+  audio_video_progress_bar: ^0.9.0
+  flutter_multi_formatter: ^2.4.1
+  scrollable_positioned_list: ^0.2.2
+  flutter_slidable: ^0.6.0
+  flutter_svg: ^0.23.0+1
+  just_audio: ^0.9.18
+  audio_service: ^0.18.0
+  get_it: ^7.2.0
+  webview_flutter: ^3.0.0
+  sentry_flutter: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/category_icons/
+    - assets/app_image.jpg
+
+module: 
+  androidX: true
+
+  # fonts:
+  #   - family: SFProDisplay
+  #     fonts:
+  #       - asset: assets/fonts/SFProDisplay/SFPRODISPLAYREGULAR.otf
+  #       - asset: assets/fonts/SFProDisplay/SFPRODISPLAYMEDIUM.otf
+  #         weight: 700
+  #       - asset: assets/fonts/SFProDisplay/SFPRODISPLAYBOLD.otf
